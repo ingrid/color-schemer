@@ -1,0 +1,25 @@
+body {
+	margin:0px;
+	text-align:center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+input {
+	display:block;
+	margin:10px auto 10px auto;
+}
+
+input[type="text"] {
+	font-size:20;
+	height:35px;
+	width: 400px;
+	text-align:left;
+	border:1px solid #666;
+	border-radius: 6px
+}
+
+input[type="submit"] {
+	font-size:20;
+	height:30px;
+	width: 100px;
+}

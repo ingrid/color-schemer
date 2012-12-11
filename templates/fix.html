@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Color Fix</title>
+		{% for style in styles %}
+		<link rel="stylesheet" type="text/css" href="{{ style }}"/>
+		{% endfor %}
+	</head>
+	<body>
+		{{ body|safe }}
+	</body>
+	<script type="text/javascript">
+		colors = [
+		{% for color in colors %}
+			{{ color|safe }},
+		{% endfor %}	
+		];
+	</script>
+</html>
